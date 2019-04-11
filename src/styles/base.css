@@ -1,0 +1,80 @@
+Html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*,* ::after, *::before {
+    box-sizing: inherit;
+}
+
+#container {
+    width: 400px;
+    margin:auto;
+    border: solid 1px rgb(218,218,218);
+    padding:10px;
+}
+
+.contact img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+ul {
+    padding:0
+}
+
+li {
+    list-style: none;
+    border-bottom: solid 1px rgb(218,218,218);
+    text-transform: capitalize;
+    padding:10px;
+    
+
+    
+}
+
+h1 {
+    color:white;
+    font-size: 18px;
+    background-color: rgb(117,177,49);
+    padding:15px;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    width:100%;
+    padding:20px;
+    background-color:  rgb(157,201,107);
+    display:flex;
+    justify-content:center;
+}
+
+.relative {
+    position:relative;
+}
+
+.buttonBack {
+    font-size: 25px;
+    top:-35px;
+    left:-113px;
+    position:absolute;
+}
+
+.bigPic {
+    border-radius: 50%;
+}
+
+.contactInfo {
+    padding: 10px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid rgb(218,218,218);
+}
